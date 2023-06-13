@@ -33,7 +33,7 @@ window.onload = function(){
       //Add card to hand1
       hand1.push(current_deck[drawIndex])
       let addCard = document.createElement("img")
-      addCard.src = "../Cards/cards/PNG-cards-1.3/" + current_deck[drawIndex] +".png"
+      addCard.src = "cards/PNG-cards-1.3/" + current_deck[drawIndex] +".png"
       handarea1.appendChild(addCard)
       current1.innerHTML = "<img src='" + addCard.src + "'>"
 
@@ -65,7 +65,7 @@ window.onload = function(){
       //Add current card to hand2
       hand2.push(current_deck[drawIndex])
       addCard = document.createElement("img")
-      addCard.src = "../Cards/cards/PNG-cards-1.3/" + current_deck[drawIndex] +".png"
+      addCard.src = "cards/PNG-cards-1.3/" + current_deck[drawIndex] +".png"
       handarea2.appendChild(addCard)
       current2.innerHTML = "<img src='" + addCard.src + "'>"
 
